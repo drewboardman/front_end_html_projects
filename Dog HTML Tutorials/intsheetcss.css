@@ -1,0 +1,41 @@
+.test {
+	font-family: Courier;
+	border: solid black;
+}
+
+#single {
+	font-family: Helvetica;
+}
+
+h1, h2, h3 {
+	color: blue;
+	font-family: cursive;
+	/*position: absolute;*/
+}
+
+#header h4 {
+	text-decoration: underline;
+}
+
+li:first-child {
+	color: red;
+	}
+
+	body {
+    background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right;
+}
+
+a {
+	display: block;
+	padding: 20px 20px;
+}
+
+div p:first-letter {
+	font-size: Helvetica;
+	font-size: 3em;
+	color: green;
+}
+
+div p:first-line{
+	text-decoration: underline;
+}

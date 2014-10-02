@@ -1,0 +1,8 @@
+.test {
+	font-family: Courier;
+	border: solid black;
+}
+
+#single {
+	font-family: Helvetica;
+}

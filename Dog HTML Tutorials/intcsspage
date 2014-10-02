@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="intsheetcss.css">
+		<title>The intermediate CSS tutorial</title>
+	</head>
+	<body>
+		<div id="header"><h4>This is testing the nested h4 selector. It should be underlined, but the other one shouldn't be.</h4>
+			<p>The CSS 3 specs suggest pseudo elements should include two colons, so p::first-line as opposed to p:first-line. This is to differentiate them with pseudo classes. Aiming for backwards-compatibility (whereby older web pages will still work in new browsers), browsers will still behave if they come across the single colon approach and this remains the best approach in most circumstances due to some older browsers not recognizing the double colon.</p>
+		</div>
+		<h1>We want all headers to be blue</h1>
+		<h2>So we can use commas</h2>
+		<h3>To sweep through many selector</h3>
+		<p class="test">This is the test the class selector</p>
+		<p id="single">This is the test the id selector</p>
+		<a href="file:///C:/Users/Drewbie/Desktop/html/intermediate%20page.html">Link to other page. Should have padding.</a>
+		<h4>This should NOT BE UNDERLINED</h4>
+		<table>
+			<thead><th>My header</th></thead>
+
+		</table>
+
+		<ul>
+			<li>This should be red</li>
+			<li>This should not be red</li>
+		</ul>
+ 	</body>
+</html>

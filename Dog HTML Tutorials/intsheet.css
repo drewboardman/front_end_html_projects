@@ -1,0 +1,18 @@
+p {
+	border-style: double;
+	border-color: black;
+}
+
+#section1 {
+	background-color: none;
+}
+th {
+	border-bottom: solid black;
+}
+td {
+
+	text-align: center;
+}
+tr.first-child {
+	border-right: solid black;
+}
